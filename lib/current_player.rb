@@ -8,5 +8,5 @@ def turn_count(board)
       counter += 1
     end
   end
-  print counter
+  counter
 end
