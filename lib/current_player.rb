@@ -15,4 +15,5 @@ def current_player(board)
   else
     "O"
   end
+  if turn_count(board).even? ? "X" : "O"
 end
